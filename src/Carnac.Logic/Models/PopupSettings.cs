@@ -75,7 +75,7 @@ namespace Carnac.Logic.Models
 
         public string Alignment
         {
-            get { return Placement == NotificationPlacement.TopLeft || Placement == NotificationPlacement.BottomLeft ? "Left" : "Right"; }
+            get { return "Center"; }
         }
 
         public Thickness Margins
